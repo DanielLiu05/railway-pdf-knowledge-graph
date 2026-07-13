@@ -38,10 +38,10 @@ R137,A111,HAS_STANDARD,S111,8,31,超限须在轮辋内侧面去重调整，去�
 R138,A112,HAS_STANDARD,S112,8,31,踏面及轮缘加工后表面粗糙度不大于Ra12.5,成员C,reveiwed
 R139,A112,HAS_STANDARD,S113,8,31,踏面镟修后车轮直径不低于800mm；,成员C,reveiwed
 R140,A112,HAS_STANDARD,S114,8,31,车轮内侧面端面跳动不大于0.3mm；,成员C,reveiwed
-R141,A112,HAS_STANDARD,S135,8,31,踏面径向跳动不大于0.3mm；,成员C,reveiwed
-R142,A112,HAS_STANDARD,S136,8,31,轮缘厚度须满足28~33mm。,成员C,reveiwed
-R143,A112,HAS_STANDARD,S137,8,31,"踏面形式为LMA型；",成员C,reveiwed
-R144,A112,HAS_STANDARD,S138,8,31,"踏面及轮缘无裂纹、缺损、剥离、擦伤等缺陷；",成员C,reveiwed
+R141,A112,HAS_STANDARD,S115,8,31,踏面径向跳动不大于0.3mm；,成员C,reveiwed
+R142,A112,HAS_STANDARD,S116,8,31,轮缘厚度须满足28~33mm。,成员C,reveiwed
+R143,A112,HAS_STANDARD,S117,8,31,"踏面形式为LMA型；",成员C,reveiwed
+R144,A112,HAS_STANDARD,S118,8,31,"踏面及轮缘无裂纹、缺损、剥离、擦伤等缺陷；",成员C,reveiwed
 R145,C112,HAS_DEFECT,D101,8,31,踏面及轮缘无裂纹、缺损、剥离、擦伤等缺陷；,成员C,draft
 R146,C112,HAS_DEFECT,D102,8,31,踏面及轮缘无裂纹、缺损、剥离、擦伤等缺陷；,成员C,draft
 R147,C112,HAS_DEFECT,D103,8,31,踏面及轮缘无裂纹、缺损、剥离、擦伤等缺陷；,成员C,draft

@@ -1,5 +1,5 @@
 entity_id,name,entity_type,description,pdf_page,printed_page,source_text,reviewer,status
-C000,轮对,Component,轮对,6,29,轮对,成员C,draft
+C100,轮对,Component,轮对,6,29,轮对,成员C,draft
 C101,车轮（含轮盘）,Component,铁路规程中提到的车轮部件，包含轮盘,6,29,车轮（含轮盘）,成员C,draft
 C102,齿轮箱,Component,用于动车轮对的齿轮箱,6,29,装用KD575-A-M及G301齿轮箱的动车轮对组成检修时须退卸车轮(含轮盘),成员C,draft
 C103,制动盘,Component,车轮组成中的制动盘,6,29,车轮报废时，车轮组成(含制动盘)须整体更换。,成员C,draft

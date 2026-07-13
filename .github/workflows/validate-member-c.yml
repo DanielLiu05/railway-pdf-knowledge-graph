@@ -1,0 +1,45 @@
+name: Validate Member-C CSVs
+
+# Controls when the workflow will run
+on:
+  # Run on pushes to the specific branch
+  push:
+    branches:
+      - DanielLiu05-memberc
+    # Optional: Only run if the CSV files or the validation script change
+    paths:
+      - 'data/submissions/member-c/**'
+      - 'scripts/validation/**'
+      - '.github/workflows/validate-member-c.yml'
+      
+  # Run on pull requests targeting your branch or main
+  pull_request:
+    branches:
+      - main
+      - DanielLiu05-memberc
+
+  # Allows you to manually trigger this workflow from the Actions tab in GitHub
+  workflow_dispatch:
+
+jobs:
+  validate-csv:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Check out the repository code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up a Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Run the validation script with the correct paths
+      - name: Validate Member-C CSVs
+        run: |
+          python scripts/validation/validate_csv.py \
+            --entities data/submissions/member-c/entities.csv \
+            --relations data/submissions/member-c/relations.csv \
+            --submission-role member-c
